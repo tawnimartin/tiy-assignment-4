@@ -264,6 +264,35 @@ margin: 46px 0 0 0;
 	color: #adbbc6;
 	font-weight: 100;
 }
+.main .left-col .btn-holder {
+margin: 18px 0px 0 25px;
+}
+
+.main .left-col a.comments-btn {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	background-color: #a4b3be;
+	text-decoration: none;
+	padding: 5px 13px 7px 12px;
+	margin: 0;
+	line-height: 29px;
+}
+
+.main .left-col a.comments-btn:before {
+	content: "";
+	display: block;
+	background: url(assets/icon-comment.png) no-repeat 9px 8px;
+	background-color: #5f6970;
+	background-size: 15px 14px;
+	width: 33px;
+	height: 30px;
+	top: 0px;
+	float: left;
+	margin: 0px;
+	padding: 0;
+	display: inline-block;
+}
 
 
 
