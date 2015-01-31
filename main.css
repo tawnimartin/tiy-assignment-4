@@ -54,10 +54,6 @@ html, body {
 }
 .nav a:hover {
 	opacity: 0.5;
-		   -moz-transition: all .4s linear;
-    -webkit-transition: all .4s linear;
-    -ms-transition: all .4s linear;
-    -o-transition: all .4s linear;
     transition: all .4s linear;
 }
 .feature-container {
@@ -308,10 +304,6 @@ margin: 18px 0px 0 25px;
 }
 .main .left-col a.btn:hover {
 	background-color: #196eb1;
-	   -moz-transition: all .4s linear;
-    -webkit-transition: all .4s linear;
-    -ms-transition: all .4s linear;
-    -o-transition: all .4s linear;
     transition: all .4s linear;
 }
 .main .left-col a.btn:hover:before {
@@ -363,10 +355,6 @@ margin: 18px 0px 0 25px;
 }
 .footer .box:hover > .box-title {
 	color: #fefefc;
-    -moz-transition: all .6s linear;
-    -webkit-transition: all .6s linear;
-    -ms-transition: all .6s linear;
-    -o-transition: all .6s linear;
     transition: all .6s linear;
 
 }
@@ -388,10 +376,6 @@ margin: 18px 0px 0 25px;
     left: 0;
     right: 0;
     background: rgba(0,102,179, 0.7);
-    -moz-transition: all .6s linear;
-    -webkit-transition: all .6s linear;
-    -ms-transition: all .6s linear;
-    -o-transition: all .6s linear;
     transition: all .6s linear;
   }
   
@@ -466,10 +450,6 @@ margin: 18px 0px 0 25px;
 
 .footernav a:hover {
 	opacity: 0.5;
-	-moz-transition: all .4s linear;
-    -webkit-transition: all .4s linear;
-    -ms-transition: all .4s linear;
-    -o-transition: all .4s linear;
     transition: all .4s linear;
 }
 
