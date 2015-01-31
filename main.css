@@ -350,6 +350,15 @@ margin: 18px 0px 0 25px;
 	padding: 0;
 
 }
+.footer .box:hover > .box-title {
+	color: #fefefc;
+    -moz-transition: all .6s linear;
+    -webkit-transition: all .6s linear;
+    -ms-transition: all .6s linear;
+    -o-transition: all .6s linear;
+    transition: all .6s linear;
+
+}
 .footer img {
 	width: 100%;	
 	display: block;
@@ -379,6 +388,7 @@ margin: 18px 0px 0 25px;
     background: none;
     background: rgba(0,102,179, 0.3); 
   }
+
 .footer .footernav-container {
 	height: 97px;
 	background-color: #0a3451;
@@ -386,6 +396,21 @@ margin: 18px 0px 0 25px;
 	float: left;
 	width: 100%;
 }
+.box-title {
+	position: absolute;
+	bottom: 6px;
+	left: 20px;
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 29px;
+	color: #0a3451;
+	text-transform: uppercase;
+	line-height: 35px;
+}
+
+
+
+
+
 .clearfix:after { 
    content: "."; 
    visibility: hidden; 
