@@ -54,7 +54,7 @@ html, body {
 }
 .nav a:hover {
 	opacity: 0.5;
-    transition: all .4s linear;
+    transition: all .3s linear;
 }
 .feature-container {
 	width: 996px;
@@ -87,11 +87,6 @@ html, body {
 	font-weight: 600;
 	text-shadow: none;
 }
-
-
-
-
-
 
 .main {
 	margin: 0 auto 0 auto;
@@ -263,7 +258,7 @@ h1 {
 	font-size: 18px;
 	color: #0d62a9;
 	text-transform: uppercase;
-margin: 46px 0 0 0;
+	margin: 46px 0 0 0;
 }
 .main .right-col .sidebar p {
 	font-size: 14px;
@@ -273,7 +268,7 @@ margin: 46px 0 0 0;
 	font-weight: 100;
 }
 .main .left-col .btn-container {
-margin: 18px 0px 0 25px;
+	margin: 18px 0px 0 25px;
 }
 .main .left-col .btn-container .btn-holder {
 	clear:left;
@@ -307,12 +302,11 @@ margin: 18px 0px 0 25px;
     transition: all .4s linear;
 }
 .main .left-col a.btn:hover:before {
-		background-color: #0a3451;
+	background-color: #0a3451;
 }
 .main .left-col .comments:before {
 	background: url(assets/icon-comment.png) no-repeat 9px 8px;
 	background-size: 16px 15px;
-
 }
 .main .left-col .read-later:before {
 	background: url(assets/icon-upload.png) no-repeat 9px 8px;
@@ -321,7 +315,6 @@ margin: 18px 0px 0 25px;
 .main .left-col .share:before {
 	background: url(assets/icon-share.png) no-repeat 9px 8px;
 	background-size: 15px 13px;
-
 }
 
 .footer {
@@ -451,13 +444,4 @@ margin: 18px 0px 0 25px;
 .footernav a:hover {
 	opacity: 0.5;
     transition: all .4s linear;
-}
-
-
-
-.clearfix:after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   clear: both;
 }
