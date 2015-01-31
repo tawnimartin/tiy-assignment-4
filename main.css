@@ -324,13 +324,33 @@ border-top: 1px solid #e4e9ec;
 	text-align: center;
 	font-family: "Oswald", Helvetica, Arial;
 	font-weight: 400;
-	font-size: 62px;
+	font-size: 62px; /*62 / 16*/
 	color: #0a3451;
 	text-transform: uppercase;
-	margin: 25px 0 0 13px;
+	margin: 25px 0 29px 13px;
 	letter-spacing: 1px;
 }
 
+.bottom-container .box {
+	float:left;
+	width: 25%;
+	display: inline-block;
+}
+.bottom-container img {
+	width: 100%;	
+}
+
+.bottom-container .box2 {
+
+}
+
+.bottom-container .box3 {
+
+}
+
+.bottom-container .box4 {
+
+}
 .clearfix:after { 
    content: "."; 
    visibility: hidden; 
