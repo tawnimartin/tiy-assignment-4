@@ -344,27 +344,48 @@ margin: 18px 0px 0 25px;
 .footer .box {
 	float:left;
 	width: 25%;
-	display: inline;
+	display: inline-block;
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-}
-.footer .box:last-of-type {
 
 }
 .footer img {
 	width: 100%;	
 	display: block;
 }
-.footer .test {
+.blu {
+    position: relative;
+    cursor: pointer;
+  }
+
+.blu:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,102,179, 0.7);
+    -moz-transition: all .6s linear;
+    -webkit-transition: all .6s linear;
+    -ms-transition: all .6s linear;
+    -o-transition: all .6s linear;
+    transition: all .6s linear;
+  }
+  
+.blu:hover:before {
+    background: none;
+    background: rgba(0,102,179, 0.3); 
+  }
+.footer .footernav-container {
 	height: 97px;
 	background-color: #0a3451;
 	position: relative;
-	float:left;
+	float: left;
 	width: 100%;
 }
-
-
 .clearfix:after { 
    content: "."; 
    visibility: hidden; 
