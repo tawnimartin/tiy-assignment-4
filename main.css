@@ -165,7 +165,7 @@ h1 {
 .main .left-col p {
 	font-family: "Open Sans", Helvetica, sans-serif;
 	font-size: 1em;
-	line-height: 26px;
+	line-height: 1.625em;
 	color: #3d4951;
 	margin: 27px 53px 0px 21px;
 }
@@ -273,7 +273,7 @@ h1 {
 }
 .main .right-col .sidebar p {
 	font-size: 0.875em;
-	line-height: 24px;
+	line-height: 1.5em;
 	margin: 5px 0 0 0;
 	color: #adbbc6;
 	font-weight: 100;
@@ -455,4 +455,35 @@ h1 {
 	opacity: 0.5;
     transition: all .4s linear;
 }
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+body {
+	font-size: .7em;
+}
 
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+body {
+	font-size: .8em;
+}
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+body {
+	font-size: .9em;
+}
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+body {
+	font-size: 1em;
+}
+
+}    
