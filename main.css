@@ -460,7 +460,11 @@ h1 {
 body {
 	font-size: .7em;
 }
-
+.footer .footernav-container .footernav-margin {
+	width: 92.153846%;
+	margin-left: calc((100% - 92.153846%) / 2);
+	margin-right: calc((100% - 92.153846%) / 2);
+}
 }
 
 /* SMARTPHONES LANDSCAPE */
@@ -468,7 +472,11 @@ body {
 body {
 	font-size: .8em;
 }
-
+.footer .footernav-container .footernav-margin {
+	width: 92.153846%;
+	margin-left: calc((100% - 92.153846%) / 2);
+	margin-right: calc((100% - 92.153846%) / 2);
+}
 }
 
 /* TABLETS PORTRAIT */
