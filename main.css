@@ -476,6 +476,11 @@ body {
 body {
 	font-size: .9em;
 }
+.footer .footernav-container .footernav-margin {
+	width: 92.153846%;
+	margin-left: calc((100% - 92.153846%) / 2);
+	margin-right: calc((100% - 92.153846%) / 2);
+}
 
 }
 
@@ -485,5 +490,9 @@ body {
 body {
 	font-size: 1em;
 }
+.footer .footernav-container .footernav-margin {
+width: 76.153846%;
+margin-left: calc((100% - 76.153846%) / 2);
+margin-right: calc((100% - 76.153846%) / 2);
 
 }    
