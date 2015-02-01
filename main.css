@@ -455,32 +455,19 @@ h1 {
 	opacity: 0.5;
     transition: all .4s linear;
 }
-/* SMARTPHONES PORTRAIT */
-@media only screen and (min-width: 300px) {
+
+
+/* Inherits from desktop (default styles above) */
+@media only screen and (max-width: 1024px) {
+
 body {
-	font-size: .7em;
-}
-.footer .footernav-container .footernav-margin {
-	width: 92.153846%;
-	margin-left: calc((100% - 92.153846%) / 2);
-	margin-right: calc((100% - 92.153846%) / 2);
-}
+	font-size: 1em;
 }
 
-/* SMARTPHONES LANDSCAPE */
-@media only screen and (min-width: 480px) {
-body {
-	font-size: .8em;
-}
-.footer .footernav-container .footernav-margin {
-	width: 92.153846%;
-	margin-left: calc((100% - 92.153846%) / 2);
-	margin-right: calc((100% - 92.153846%) / 2);
-}
 }
 
 /* TABLETS PORTRAIT */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 body {
 	font-size: .9em;
 }
@@ -489,18 +476,78 @@ body {
 	margin-left: calc((100% - 92.153846%) / 2);
 	margin-right: calc((100% - 92.153846%) / 2);
 }
-
-}
-
-
-/* TABLET LANDSCAPE / DESKTOP */
-@media only screen and (min-width: 1024px) {
-body {
-	font-size: 1em;
-}
 .footer .footernav-container .footernav-margin {
-width: 76.153846%;
-margin-left: calc((100% - 76.153846%) / 2);
-margin-right: calc((100% - 76.153846%) / 2);
+	width: 92.153846%;
+	margin-left: calc((100% - 92.153846%) / 2);
+	margin-right: calc((100% - 92.153846%) / 2);
+}
+.main .left-col {
+	width: 100%;
+}
+.main .left-col .btn-container {
+	margin-bottom: 0;
+}
+.main .right-col {
+	width: 100%;
+}
+.main .right-col .author {
+width: 100%;
+text-align: center;
+}
+.main .right-col .author img {
+width: 84px;
+height: 85px;
+margin: 71px 0px 0px calc(50% - 37px);
+}
+.main .right-col .ad {
+float: left;
+width: 278px;
+text-align: left;
+}
+.main .right-col .sidebar {
+float: left;
+width: 42%;
+margin-left: 24px;
+}
+.main .right-col .sidebar h2 {
+font-size: 2.125em;
+}
+.main .right-col .sidebar p {
+font-size: 0.975em;
+padding-bottom: 117px;
+}
 
-}    
+
+}
+
+/* Inherits from tablet and desktop styles above */
+@media only screen and (max-width: 480px) {
+
+body {
+	font-size: .8em;
+}
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 480px) {
+
+body {
+	font-size: .7em;
+}
+
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (max-width: 320px) {
+
+body {
+	font-size: .6em;
+}
+
+}
+
+
+
+
+
