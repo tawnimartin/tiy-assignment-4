@@ -1,6 +1,6 @@
 .menu-collapser {
     position: relative;
-    background-color: #999;
+    background-color: #0a3451;
     color: #FFF;
     text-shadow: 0 1px 0 rgba(0,0,0,0.5);
     width: 100%;
@@ -17,8 +17,8 @@
     right: 8px;
     top: 50%;
     width: 40px;
-    background-color: #0E0E0E;
-    background-image: linear-gradient(to bottom, #151515, #040404);
+    background-color: #0a3451;
+    background-image: linear-gradient(to bottom, #0a3451, #0a3451);
     background-repeat: repeat-x;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     border-radius: 4px 4px 4px 4px;
@@ -44,7 +44,7 @@
 }
 .collapse-button:hover, .collapse-button:focus {
     background-image: none;
-    background-color: #040404;
+    background-color: #082b43;
     color: #FFF;
 }
 .collapse-button .icon-bar {
@@ -60,7 +60,7 @@
 ul.slimmenu {
     list-style-type: none;
     margin: 0;
-    padding: 5px 40px 0 0;
+    padding: 0 40px 0 0;
     position: absolute;
     right: 0;
 }
@@ -109,7 +109,7 @@ ul.slimmenu li .sub-collapser:before {
     margin-right: -0.25em;
 }
 ul.slimmenu li .sub-collapser > i {
-    color: #1563a7;
+    color: #0c3d62;
     font-size: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -118,7 +118,7 @@ ul.slimmenu li ul {
     margin: 0;
     list-style-type: none;
 }
-ul.slimmenu li ul li { background-color: #428fd1; }
+ul.slimmenu li ul li { background-color: #428fd1 }
 ul.slimmenu li > ul {
     display: none;
     position: absolute;
@@ -142,7 +142,7 @@ ul.slimmenu.collapsed {
 ul.slimmenu.collapsed li {
     display: block;
     width: 100%;
-
+    background-color:#1563a7;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box
@@ -150,10 +150,10 @@ ul.slimmenu.collapsed li {
 ul.slimmenu.collapsed li a {
     display: block;
     border-bottom: 1px solid rgba(0, 0, 0, 0.075);
-
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box
+    -webkit-box-sizing: border-box;
+/*    margin-top:-4px;*/
 }
 ul.slimmenu.collapsed li .sub-collapser {
     height: 40px;

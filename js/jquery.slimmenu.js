@@ -11,7 +11,7 @@
         defaults =
         {
             resizeWidth: '768',
-            collapserTitle: 'Main Menu',
+            collapserTitle: '',
             animSpeed: 'medium',
             easingEffect: null,
             indentChildren: false,
